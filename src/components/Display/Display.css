@@ -1,0 +1,11 @@
+.display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background: #0004;
+  grid-column: span 4;
+  height: 60px;
+  text-align: end;
+  padding: 10px;
+  border: 1px solid #00000063;
+}

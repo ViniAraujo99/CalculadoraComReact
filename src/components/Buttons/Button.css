@@ -1,0 +1,32 @@
+.calc__button {
+  width: 100%;
+  border: 1px solid #00000063;
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.calc__button:active {
+  background-color: #f2f2f29d;
+}
+
+.calc__button.funcBtn {
+  background-color: #f5a209;
+  color: #fff;
+}
+
+.calc__button.funcBtn:active {
+  background-color: #f5a2099d;
+}
+
+.calc__button.equalBtn {
+  background-color: #f54c09;
+  color: #fff;
+}
+
+.calc__button.equalBtn:active {
+  background-color: #f54c09c4;
+}
